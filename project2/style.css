@@ -1,0 +1,16 @@
+h3{
+    color: blue;
+}
+body{
+    background-color: azure;
+
+}
+div{
+    text-align: center;
+    font-style: normal;
+    color: black;
+}
+.blood, .ward, .gender{
+    text-align: inherit;
+    color: green;
+}

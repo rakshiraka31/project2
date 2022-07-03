@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link len="stylesheet" href="style.css">
+    
+    <title>Registration</title>
+</head>
+<body>
+    <h1 style="color: red;"> Registration Form for Patient</h1>
+    <h3>Fill up the below Form</h3>
+    Date of Registration:
+    <br>
+    <input type="date" id="date" name="date">
+    <br>
+    <br>
+    <form name="LoginForm" method="POST" action="create.php">
+       
+        <div>
+            First Name: <input type="text" id="fname"  name="fname">
+            Last Name: <input type="text" id="lname"  name="lname">
+
+        </div>
+        <br><br>
+        <div>
+            Gender: <br>
+
+            <input type="radio" name="gender"  id="m" value="Male"> Male <br>
+            <input type="radio" name="gender" id="f"  value="Female"> Female<br>
+        </div>
+        <br><br>
+        <div>
+            Age: <input type="number" id="age"  name="age">
+        </div>
+        <br><br>
+        Email: <input type="text" id="email" name="email">
+                            <br><br>
+        <div>
+            Contact Number:
+             <input type="number" id="contact"  name="contact">
+
+        </div>
+        <br><br>
+        <div>
+            Temporary Address: <input type="text" id="taddress"  name="taddress">
+        </div>
+        <br><br>
+        <div>
+           Permanent Address: <input type="text" id="paddress"  name="paddress">
+        </div>
+        <br><br>
+        <div>
+            Major Complains: <input type="message" id="msg"  name="msg">
+        </div>
+        <br><br>
+        <div>
+            Select the Ward:<br>
+             <input type="radio" name="ward" id="g" value="general" >General <br>
+             <input type="radio" name="ward" id="e" value="ent">ENT <br>
+             <input type="radio" name="ward" id="ee" value="emergency" >Emergency<br>
+             <input type="radio" name="ward" id="g" value="gyano" >Gyano<br>
+             <input type="radio" name="ward" id="d" value="dental" >Dental<br>
+             <input type="radio" name="ward" id="o" value="Ophtha" >Ophthalmo(EYE)<br>
+             <input type="radio" name="ward" id="o" value="skin" >SKIN<br>
+        </div>
+        <br>
+        <br>
+        <div>
+            Blood Group:<br> 
+            <input type="radio" name="blood" id="A">A+ve <br>
+            <input type="radio" name="blood"  id="AB">AB+ve <br>
+            <input type="radio" name="blood"  id="B">B+ve <br>
+            <input type="radio" name="blood"  id="O">O+ve <br>
+         </div>
+         <br><br>
+        
+        <div>
+            <br><br>
+            <input type="submit" name="Submit" value="Submit">
+            
+            
+        </div>
+    </form>
+</body>
+</html>
